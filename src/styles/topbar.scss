@@ -1,0 +1,37 @@
+.topbar{
+  padding: 5px 30px;
+  font-size: 27px;
+  background-color: lightskyblue;
+  color: white;
+  font-weight: bold;
+
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .navbar-brand{
+      display: flex;
+      align-items: center;
+    }
+      .mr-auto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 20px;
+        width: 260px;
+        .navlink{
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+          &:focus-within{
+            text-decoration: underline;
+          }
+          &:visited{
+            text-decoration: underline;
+          }
+
+        }
+      }
+  }
+}

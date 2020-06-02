@@ -1,0 +1,22 @@
+.favourites-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+  width: 95%;
+  flex-wrap: wrap;
+
+  .current-city-weather{
+    color: white;
+    position: relative;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+}
